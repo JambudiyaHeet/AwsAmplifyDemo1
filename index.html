@@ -22,7 +22,7 @@ form.addEventListener('submit', async (e) => {
 e.preventDefault();
 const a = document.getElementById('num1').value;
 const b = document.getElementById('num2').value;
-const apiUrl = 'https://arn:aws:lambda:us-east-1:383395885613:function:AddTwoNumbersLambda.execute-api.us-east-1.amazonaws.com/prod/add'; //replace with your API URL
+const apiUrl = 'https://ft33maz1k4.execute-api.us-east-1.amazonaws.com/prod/add'; //replace with your API URL
 try {
 const response = await fetch(apiUrl, {
 method: 'POST',
